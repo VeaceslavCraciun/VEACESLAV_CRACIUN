@@ -16,8 +16,8 @@ public class HomeWork1 {
         System.out.println("Java Is Amazing. Is it true or false? This is " + JavaIsAmazing);
         System.out.println("The value of Pi: " + Pi);
 
-        double Price = 50;
-        double Tax = 10;
+        double Price = 50.5;
+        double Tax = 10.8;
         int Quantity = 5;
         double Sum = 8.5;
 
