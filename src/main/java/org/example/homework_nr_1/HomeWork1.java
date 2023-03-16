@@ -19,7 +19,7 @@ public class HomeWork1 {
         double Price = 50;
         double Tax = 10;
         int Quantity = 5;
-        double Sum = 0;
+        double Sum = 8.5;
 
         System.out.println("Price = " + Price + ", Tax = " + Tax + ", Quantity = " + Quantity + ", Sum = " + Sum);
         double total = Price + Tax*Quantity + Sum;
