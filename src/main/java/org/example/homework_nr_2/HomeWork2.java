@@ -26,14 +26,27 @@ public class HomeWork2 {
         System.out.println();
         //написать цикл(ы), который(е) отображает(ют) в консоль сумму следующей серии:
         // 1/3 + 3/5 + 5/7 + 7/9 + 9/11 + 11/13 + ... + 95/97 + 97/99
-        int a, b;
-        for (a = 1, b = 3; a!=97; a+=2, b+=2) {
-            System.out.println(a + b);
+
+        double sum = 0.0;
+        double n;
+        for (n = 1.0; n!=97.0; n+=2.0)
+            sum += n/(n + 2);
+        {
+            System.out.println("Сумма арифметической прогрессии равна: " + sum);
+            System.out.println();
 
         }
 
         //Бонус: Используйте комбинацию из System.out.println и System.out.print
         // и циклы для вывода на экран следующей фигуры
 
+        for(int i=0; i<3; i++){
+            System.out.println("a ");
+            for(int j=0; j<3; j++){
+            }
+            System.out.println("b");
+        }
+
+        }
     }
-}
+
