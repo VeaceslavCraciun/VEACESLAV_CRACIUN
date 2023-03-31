@@ -36,17 +36,15 @@ public class HomeWork4 {
         }
         System.out.println("The number of the even elements of the bidimentional array is: " + evenCount);
         System.out.println("The number of the odd elements of the bidimentional array is: " + oddCount);
-        System.out.println("===============");
 
-        //бонус
-//        String[]list1 = new String[]{"Ivan", "John", "Helen", "Mary", "Ronald"};
-//        String[]list2 = new String[list1.length];
-//        for (int j = 0; j < list1.length; j++) {
-//           System.out.print(list1[j] + ". ");
-//           list1[j] = list2[j];
-//            System.out.println(list2[j]);
-//
-//        }
+        System.out.println("===== Бонус. Копирование массива ======");
+        String[]list1 = new String[]{"Ivan", "John", "Helen", "Mary", "Ronald"};
+        String[]list2 = new String[list1.length];
+        for (int j = 0; j < list1.length; j++) {
+            list2[j] = list1[j];
+            System.out.print(list1[j] + ". ");
+            System.out.println(list2[j]);
+        }
 
 
 
