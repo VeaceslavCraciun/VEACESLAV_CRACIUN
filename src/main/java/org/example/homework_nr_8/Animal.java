@@ -2,8 +2,8 @@ package org.example.homework_nr_8;
 
 public interface Animal {
 
-    default double foodCosts(){
-        return 1000;
+    default double foodCosts(double income){
+        return income * 0.8;
     };
 
     static double cageArea(int width){

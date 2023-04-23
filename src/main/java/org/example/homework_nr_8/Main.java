@@ -8,7 +8,7 @@ public class Main {
           elephant.eat();
           elephant.swim();
           elephant.flapEars();
-          elephant.foodCosts();
+          elephant.foodCosts(10000);
 
           System.out.println(Elephant.cageArea(10));
 

@@ -2,8 +2,8 @@ package org.example.homework_nr_8;
 
 public class Elephant extends Herbivore implements Animal {
     @Override
-    public double foodCosts() {
-        return Animal.super.foodCosts();
+    public double foodCosts(double income) {
+        return Animal.super.foodCosts(income);
     }
 
     @Override
